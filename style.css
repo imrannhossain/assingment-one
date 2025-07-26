@@ -1,0 +1,19 @@
+
+/* Header style */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px ;
+}
+
+/* style banner section */
+
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
