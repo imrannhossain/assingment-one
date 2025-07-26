@@ -45,7 +45,8 @@ line-height: 33px;
 /* style banner section */
 
 .banner{
-    background-image: url(assets/hero-bg.png);
+    background-image: url(assets/Hero-bg.png);
+
 
     background-repeat: no-repeat;
     background-size: cover;
