@@ -6,18 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="azeret-mono">
         <header class="nav">
             <p>Imran Hossain</p>
             <nav>
-                <button>Download Resume</button>
+                <button onclick="download()" class="nav-btn">Download Resume</button>
+
+                <script>
+                  function download (){alert("Download");} 
+                    </script>
             </nav>
         </header>
 
 
         <main>
             <section class="banner">
-                <img src="assets/Group.png" alt="" class="banner-img">
+                <img class="banner-img" src="assets/Group.png" alt="" class="banner-img">
                 <h2 class="banner-title">"In the near future, I hope to <br> become a Developer."</h2>
                 <p class="banner-description">I am passionate about technology and continuously working on improving my skills. In the near future, <br> I hope to become a successful developer and contribute to creating innovative digital solutions.</p>
 
