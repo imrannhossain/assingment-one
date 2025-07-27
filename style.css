@@ -227,10 +227,11 @@ font-weight: 400;
 line-height: 20px;
 
 }
-.image{
+.card{
     display: flex;
     text-align: justify;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 .ht{
     border-radius: 16px;
@@ -241,8 +242,7 @@ height: 250px;
 margin-right: 40px;
 padding: 20px 30px 30px 30px;
 }
-.cs{
-    
+.cs{ 
 border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
 width: 364px;
@@ -261,7 +261,7 @@ padding: 20px 30px 30px 30px;
 
 }
 
-.image h2 {
+.card h2 {
 margin-top: 20px;
 margin-bottom: 30px;
 color: rgb(13, 19, 33);
@@ -270,7 +270,7 @@ font-weight: 800;
 line-height: 25px;
 
 }
-.image p{
+.card p{
     
 margin-bottom: 30px;
 opacity: 0.7;
@@ -293,3 +293,4 @@ text-decoration-line: underline;
     
 height: 40px;
 }
+
